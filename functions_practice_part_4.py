@@ -2,6 +2,8 @@
 def max_num(a,b,c):
     return max(a,b,c)
 
+
+max_num(4,7,5)
 # Write a Python function called mult_list() to multiply all the numbers in a list.
 def mult_list(list):
     
@@ -12,15 +14,21 @@ def mult_list(list):
         for num in list[1:]:
             result = result * num
         return result
-    
+
+
+mult_list([4,6,8,23,5,6])
 # Write a Python function called rev_string() to reverse a string.
 def rev_string(string):
     return string[::-1]
 
+
+rev_string("Hello there, world!")
 # Write a Python function called num_within() to check whether a number falls in a given range.
 def num_whithin(x,a,b):
     return x in range(a,b+1)
 
+
+num_whithin(4,2,10)
 # Write a Python function called pascal() that prints out the first n rows of Pascal's triangle.
 triangle = [[1],[1,1]]
 def pascal(n):
@@ -53,3 +61,7 @@ def pascal(n):
     #print triangle
     for row in triangle:
         print(row)
+
+
+
+pascal(3)
